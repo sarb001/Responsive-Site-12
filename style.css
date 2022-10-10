@@ -27,7 +27,7 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 
 .main-page
 {   width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('/about.jpeg');
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('/about.webp');
     background-position: center;
     background-size: cover;
     height: 100vh;
