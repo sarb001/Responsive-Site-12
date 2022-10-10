@@ -1,0 +1,280 @@
+*
+{
+    padding:0px; margin: 0px;
+    box-sizing: border-box; width: 100%;
+    cursor: pointer;}
+.ham-icon
+{
+    display: none;
+    font-size: 35px;
+    background-color: antiquewhite;
+    width: 12%;
+}
+
+img{width:100%;}
+.header-bar { width:100%;height:12vh;background-color:rgb(2, 254, 208); display: flex;align-items: center;
+position: fixed;top:0;color:rgb(0, 0, 0);font-weight: 700;  }
+
+.logo { text-align: center;}
+.nav-links > ul
+{list-style-type: none;display: flex;flex-direction: row;}
+
+ul> li {text-align: center;align-self: center; display: block; }
+
+
+ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
+#logo-name {font-size: 25px;}
+
+.main-page
+{   width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('/about.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#btn{ width: 8%;height: 6vh;border-radius: 35px;border:2px solid white;background-color: transparent;color: white;}
+#main-page-tagline { font-size: 45px;color: white;padding: 1%;}
+#main-page-detail { color: white;} 
+.about-us {  display: flex;  }
+.about-us-content { padding: 4%;}
+.about-image {padding: 4%;}
+
+
+#learn-more-btn { padding-top: 2%;}
+#about-us-content {text-align: center;font-size: 35px;padding-bottom: 7%;}
+
+.services { display: flex;flex-direction: column; padding: 3%;background-color: rgb(203, 203, 203);}
+#services-content { text-align: center;font-size: 35px;padding: 2%;}
+.card { width:100%;display: grid;grid-template-rows: 1fr 1fr 1fr; height: 40vh;background-color: wheat;} 
+
+.card-img-1 {text-align: center;padding-top: 5%;}
+.card-img-1 > img { width: 35%;}
+
+.card-img-2 {text-align: center;padding-top: 5%;}
+.card-img-2 > img { width: 65%;}
+
+.card-img-3 {text-align: center;padding-top: 5%;}
+.card-img-3 > img { width: 28%;}
+
+.card-img-4 {text-align: center;padding-top: 5%;}
+.card-img-4 > img { width: 28%;}
+
+.card-img-5 {text-align: center;padding-top: 5%;}
+.card-img-5 > img { width: 22%;}
+
+.card-img-6 {text-align: center;padding-top: 5%;}
+.card-img-6 > img { width: 25%;}
+
+
+#work-img > img { width: 25%;}
+
+
+#card-title { font-weight: 800;text-align: center;padding-top:  4%;align-self: center;} 
+.card-cover { padding: 4%;width:100% }
+#card-content{ width: 100%;text-align: center;}
+.card-container { flex-wrap: wrap;display: grid;grid-template-columns: 1fr 1fr 1fr;}
+
+#our-works {font-size: 35px;text-align: center;width: 100%;}
+.our-works {background-color: cadetblue;padding-bottom: 3%;}
+.works-images {padding: 3%;width: 100%; }
+#work-img{ padding: 3%;}
+
+
+.contact-us-detail {display: flex;width:100%}
+.contact-us-tag {font-size: 28px;font-weight: 400;text-align: center;padding: 3%;}
+
+.contact-side  { width: 35%;padding: 4%;} 
+
+#first-inputline { display: flex;justify-content: space-around;}
+.form-side {padding: 3%;}
+#second-inputline { display: flex;flex-direction: column;padding: 2%;}
+
+#sec-msg { padding-bottom:13%;}
+#btn-msg {width: 15%;padding: 6px;border-radius: 12px;}
+
+#contact-detail  { display: flex;flex-direction: column;padding: 3% 4%;}
+#contact-top-detail { font-weight: 900;font-size: 22px;}
+#contact-top2-detail {font-size:21px}
+#input-name { width: 45%;padding: 3px;} 
+#input-number { width: 45%;} 
+
+
+.footer {display: flex;flex-direction: column;text-align: center;background-color: rgb(199, 200, 201);padding: 2%;}
+#footer-detail { width: 30%;align-self: center;}
+#footer-heading { font-weight: 700;font-size: 25px;}
+
+
+
+/* Responsiveness  */
+
+@media screen and (max-width:1920px)
+{
+    .header-bar{background-color: rgb(180, 171, 236);}
+    #logo-name {font-size: 26px;}
+    ul > li{font-size: 22px; }
+    #card-title {font-size: 26px;}
+    .contact-us-tag > span { font-size: 45px;}
+
+    .footer-logo-1 > ion-icon 
+    {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1200px)
+{
+    .header-bar
+    {
+        background-color: rgb(255, 0, 64);
+    }
+    #btn
+    {
+       width: 22%;
+    }
+    .logo { width: 50%;text-align: center;}
+    #logo-name{
+        font-size: 30px;
+    }
+    ul > li {
+        font-size: 25px;
+    }
+    #card-title
+    {
+        font-size: 27px;
+    }
+    #our-works
+    {
+        padding: 2%;
+    }
+    #main-page-detail
+    { font-size: 21px;}
+    .about-image { align-self: center;} 
+    .contact-us-tag { padding: 1% 1%;font-size: 28px;}
+    .contact-side { padding: 1% 1%;}
+    #contact-detail { padding: 3% 4%;}
+    #btn-msg { width: 21%;padding: 13px;border-radius: 22px;}
+    #footer-detail {width: 62%;}
+    #work-img > img { padding: 1%;}
+
+}
+
+
+@media screen and (max-width:1024px)
+{
+    .header-bar
+    {
+        background-color: rgb(0, 255, 81);
+    }
+    .about-us-content { padding: 3%;}
+    #about-us-detail { font-size: 16px;}
+    .services {padding: 0%;}
+    #services-content { padding: 2% 0%;}
+    .card-container { display: grid;grid-template-columns: 1fr 1fr;}
+    #work-img > img { width: 40%;}
+    #btn-msg { width: 25%;padding: 10px;}
+    #contact-detail { padding: 2% 1%;}
+    .contact-side {padding: 1% 1%;}
+    .form-side {padding-top: 5%;}
+    #btn-msg { width: 25%;}
+    .logos{ width: 25%;}
+    #footer-detail {width: 99%;}
+    .footer {padding: 1%;}
+
+}
+
+@media screen and (max-width:768px)
+{
+    .header-bar
+    {
+        background-color: rgb(0, 234, 255);
+        width:100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo {width:35%;text-align: center;}
+    .ham-icon{ width: 10%;padding: 12px 3px;font-size: 35px;display: block;}
+    .nav-links { position: fixed;top: 103px;left:0}
+    .nav-links > ul {display: none;}
+    .nav-links > ul.active {display: block;background-color: brown;}
+    .nav-links > ul > li {font-size: 37px;}
+
+
+    #main-page-detail { font-size: 21px;}
+    .about-us { display: flex;flex-direction: column;}
+    .about-us-content { padding: 3%;}
+    #about-us-content { font-size: 35px;padding-bottom: 2%;}
+    #about-us-detail { font-size: 27px;}
+    .card-container {display: grid;grid-template-columns: 1fr;}
+    .card-cover {padding: 4%;width:100%}
+
+    .card-img-1 { padding-top: 1%;text-align: center;}
+    .card-img-3 { padding-top: 5%;}
+    .card-img-3 > img { width: 20%;}
+
+    .our-works { padding-bottom: 3%;background-color: cadetblue;}
+    .works-images { width: 100%;padding: 3%;}
+    #work-img {padding: 1%}
+    #work-img  > img { padding: 1% ;width: 95%;}
+
+    .contact-us-tag { padding: 1% 1%;font-size: 28px;}
+    .contact-us-detail { width: 100%;flex-direction: column;}
+    .contact-side {width:100%}
+    #contact-detail { padding: 2% 1%;}
+    #contact-top-detail  {font-size: 900px;font-size: 30px;}
+
+    .form-side{padding-top: 5%;}
+
+    #first-inputline { width: 100%;padding: 1%;}
+    #second-inputline { display: flex;flex-direction: column;padding: 2%;}
+
+    #btn-msg {width: 25%;}
+    .footer {padding:1%}
+    #footer-detail {font-size: 20px;}
+    .logos { display: flex;width: 50%;padding: 1%;}
+
+    #card-title {padding-top: 0%;}
+    #card-content{ width: 100%;text-align: center;font-size: 20px;}
+
+    .card-img-2 {padding: 0%;}
+    .card-img-2 > img { width: 48%;padding-top: 5%;font-size: 23px;}
+
+    .card-img-5  > img { width: 12%;}
+    .card-img-5 {width: 95%;text-align: center;}
+    #card-content { font-size: 20px;}
+    .contact-us-detail {width: 100%;flex-direction: column;}
+    .contact-side {width: 100%;}
+    #contact-detail { padding: 2% 1%;}
+    #btn-msg {width: 20%;}
+
+    .footer {padding: 1%;}
+    #footer-heading {font-weight: 700;font-size: 25px;}
+    #footer-detail
+    {
+        font-size: 20px;
+    }
+    .logos { width: 23%;padding: 1% 1%;}
+
+
+}
+@media screen and (max-width:500px)
+{
+    .header-bar
+    {
+        background-color: rgb(153, 0, 255);
+    }
+    .logo{
+        width: 50%;
+    }
+    #logo-name{font-size: 30px;}
+    #main-page-tagline { font-size: 36px;}
+    #main-page-detail { font-size: 16px;}
+    #btn {width: 35%;}
+    #btn-msg {width:30%}
+}
+
+
