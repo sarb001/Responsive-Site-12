@@ -48,7 +48,7 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 #learn-more-btn { padding-top: 2%;}
 #about-us-content {text-align: center;font-size: 35px;padding-bottom: 7%;}
 
-.services { display: flex;flex-direction: column; padding: 3%;background-color: rgb(203, 203, 203);}
+.services { display: flex;flex-direction: column; padding: 3%;background-color:rgb(179 179 181 / 32%);}
 #services-content { text-align: center;font-size: 35px;padding: 2%;}
 .card { width:100%;display: grid;grid-template-rows: 1fr 1fr 1fr; height: 40vh;background-color: wheat;} 
 
@@ -104,7 +104,7 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 #input-number { width: 45%;} 
 
 
-.footer {display: flex;flex-direction: column;text-align: center;background-color: rgb(199, 200, 201);padding: 2%;}
+.footer {display: flex;flex-direction: column;text-align: center;background-color: rgb(179 179 181 / 32%);padding: 2%;}
 #footer-detail { width: 30%;align-self: center;}
 #footer-heading { font-weight: 700;font-size: 25px;}
 
@@ -114,7 +114,7 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 
 @media screen and (max-width:1920px)
 {
-    .header-bar{background-color: rgb(180, 171, 236);}
+    .header-bar{background-color: rgb(179 179 181 / 32%);}
     #logo-name {font-size: 26px;}
     ul > li{font-size: 22px; }
     #card-title {font-size: 26px;}
@@ -130,7 +130,7 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 {
     .header-bar
     {
-        background-color: rgb(255, 0, 64);
+        background-color: rgb(179 179 181 / 32%);
     }
     #btn
     {
@@ -168,7 +168,7 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 {
     .header-bar
     {
-        background-color: rgb(0, 255, 81);
+        background-color: rgb(179 179 181 / 32%);
     }
     .about-us-content { padding: 3%;}
     #about-us-detail { font-size: 16px;}
@@ -191,7 +191,7 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 {
     .header-bar
     {
-        background-color: rgb(0, 234, 255);
+        background-color: rgb(179 179 181 / 32%);
         width:100%;
         flex-direction: row;
         justify-content: space-between;
@@ -216,7 +216,7 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
     .card-img-3 { padding-top: 5%;}
     .card-img-3 > img { width: 20%;}
 
-    .our-works { padding-bottom: 3%;background-color: cadetblue;}
+    .our-works { padding-bottom: 3%;background-color: rgb(179 179 181 / 32%);}
     .works-images { width: 100%;padding: 3%;}
     #work-img {padding: 1%}
     #work-img  > img { padding: 1% ;width: 95%;}
@@ -265,16 +265,31 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 {
     .header-bar
     {
-        background-color: rgb(153, 0, 255);
+        background-color: rgb(179 179 181 / 32%);
     }
     .logo{
         width: 50%;
     }
-    #logo-name{font-size: 30px;}
-    #main-page-tagline { font-size: 36px;}
-    #main-page-detail { font-size: 16px;}
+    #logo-name{font-size: 24px;}
+    #main-page-tagline { font-size: 31px;}
+    #main-page-detail { font-size: 21px;padding: 2% 1%;}
+    #learn-more-btn { padding: 3% 1%;}
     #btn {width: 35%;}
     #btn-msg {width:30%}
+    .about-us-content { padding: 3%;}
+    #about-us-content { font-size: 43px;}
+    #about-us-detail { font-size: 25px;}
+    #services-content { padding: 2% 0%;}
+    .card-cover{padding: 4%;}
+    .form-side {padding-top: 4%;}
+    #first-inputline { height: 12vh; flex-direction: column;justify-content: space-evenly;}
+    #input-name { width: 100%;}
+    #input-number {width: 100%;}
+
+    #footer-heading { font-size: 700px;font-size: 25px;}
+    #footer-detail { font-size: 17px; }
+    .logos { width: 48%;}
+
 }
 
 
